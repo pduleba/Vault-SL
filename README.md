@@ -25,6 +25,7 @@ from many kinds of sources i.e. AWS/Azuer/DB etc. Here are example how to create
 * * `set VAULT_ADDR=http://127.0.0.1:8200`
 * * `set VAULT_TOKEN=your_token_key`
 * `vault login` - login into Vault
+* * token can be re-generated via `vault token create`
 * `vault status` - to check server status
 
 ### Interacting with Vault (via vault.exe)
@@ -47,4 +48,11 @@ from many kinds of sources i.e. AWS/Azuer/DB etc. Here are example how to create
 ![Result](resource/generating-secrets-result.PNG?raw=true "Result")
 
 ### Help
+* `vault path-help __VAULT_PATH__` - provides help for given path of given `search engine`
+* * `vault path-help pduleba` - for custom path 
+* * `vault path-help sys` - for system path
+* * `vault path-help aws-pduleba/creds/my-non-existing-role` - inner path details
+* `vault auth help __VAULT_PATH__` - provides help for authentication path
+* * `vault auth help token` - for token auth 
+* * `vault auth help aws` - for AWS auth 
 * [Hashicorp Vault Documentation](https://www.vaultproject.io/docs/)
