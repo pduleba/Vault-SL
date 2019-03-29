@@ -37,12 +37,13 @@ from many kinds of sources i.e. AWS/Azuer/DB etc. Here are example how to create
 * `exec-api-get.bat` - get secret
 * `exec-api-delete.bat` - delete secret
 
-### Generating secrets (using AWS in example)
+### Generating secrets (using AWS search engine)
 * `vault secrets enable -path=aws-pduleba aws` - create path of type `aws`
 * `vault write aws-pduleba/config/root access_key=_USER_KEY_ secret_key=_USER_SEC_KEY_ region=eu-west-1` - configure path (AWS CLI)
 * `vault write aws-pduleba/roles/s3-role credential_type=iam_user policy_document=@resource/policy.json` - create AWS role to be used
 * `vault read aws-pduleba/creds/s3-role` - read AWS user 
-![alt text][/resource/generating-secrets-result.PNG]
+
+![Result](resource/generating-secrets-result.PNG?raw=true "Result")
 
 ### Help
 * [Hashicorp Vault Documentation](https://www.vaultproject.io/docs/)
