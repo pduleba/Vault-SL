@@ -1,0 +1,1 @@
+vault kv delete pduleba/app/data

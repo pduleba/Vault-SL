@@ -1,0 +1,1 @@
+curl --header "X-Vault-Token:%VAULT_TOKEN%" --request DELETE %VAULT_ADDR%/v1/secret/app/data

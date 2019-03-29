@@ -1,0 +1,1 @@
+vault kv put pduleba/app/data @resource/pduleba_secret_data.json
