@@ -45,4 +45,5 @@ from many kinds of sources i.e. AWS/Azuer/DB etc. Here are example how to create
 * `vault auth help __VAULT_PATH__` - provides help for authentication path
 * * `vault auth help token` - for token auth 
 * * `vault auth help aws` - for AWS auth 
+* `vault token lookup` - see details about token
 * [HashiCorp Vault Documentation](https://www.vaultproject.io/docs/)
