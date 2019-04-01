@@ -9,3 +9,6 @@ path "dev/data/*" {
 path "dev/data/secret" {
   capabilities = ["read"]
 }
+path "dev/metadata/*" {
+  capabilities = ["list"]
+}
