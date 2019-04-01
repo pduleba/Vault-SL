@@ -1,4 +1,4 @@
-# HashiCorp Vault 01 - Exercise 01
+# HashiCorp Vault-SL - Exercise 03
 
 ### Introduction
 HashiCorp Vault allows you to generate secrets on demand using `search engine` i.e. `kv`, `aws`, `database`.

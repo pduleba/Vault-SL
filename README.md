@@ -7,4 +7,7 @@ HashiCorp Vault self learning
 ### Exercise 02
 [HashiCorp Vault fully configured server](/exercise-02-fully-configured-server)
 
+### Exercise 03
+[HashiCorp Vault dynamic secret generation](/exercise-03-dynamic-secret)
+
 

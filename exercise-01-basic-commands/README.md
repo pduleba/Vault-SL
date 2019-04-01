@@ -1,4 +1,4 @@
-# HashiCorp Vault 01 - Exercise 01
+# HashiCorp Vault-SL - Exercise 01
 
 ### Introduction
 HashiCorp Vault is a server (accessible via API) for
