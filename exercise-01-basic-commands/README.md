@@ -1,7 +1,7 @@
-# Hashicorp Vault 01 - Exercise 01
+# HashiCorp Vault 01 - Exercise 01
 
 ### Introduction
-Hashicorp Vault is a server (accessible via API) for
+HashiCorp Vault is a server (accessible via API) for
 * secrets management
 * data protection
 Possible ways of accessing Vault Server
@@ -54,4 +54,4 @@ from many kinds of sources i.e. AWS/Azuer/DB etc. Here are example how to create
 * `vault auth help __VAULT_PATH__` - provides help for authentication path
 * * `vault auth help token` - for token auth 
 * * `vault auth help aws` - for AWS auth 
-* [Hashicorp Vault Documentation](https://www.vaultproject.io/docs/)
+* [HashiCorp Vault Documentation](https://www.vaultproject.io/docs/)

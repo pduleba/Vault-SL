@@ -1,4 +1,4 @@
-# Hashicorp Vault 01 - Exercise 02
+# HashiCorp Vault 01 - Exercise 02
 
 ### Introduction
 This demonstrates how to run Vault server with:
