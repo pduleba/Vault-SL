@@ -1,0 +1,9 @@
+{
+	"path": "dev",
+	"type": "kv",
+	"config": {},
+	"options": {
+		"version": 2
+	},
+	"generate_signing_key": true
+}
