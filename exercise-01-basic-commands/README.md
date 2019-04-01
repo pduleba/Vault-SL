@@ -37,15 +37,6 @@ from many kinds of sources i.e. AWS/Azuer/DB etc. Here are example how to create
 * `exec-api-get.bat` - get secret
 * `exec-api-delete.bat` - delete secret
 
-### Generating secrets (using AWS search engine)
-* `vault secrets enable -path=aws-pduleba aws` - create path of type `aws`
-* `vault write aws-pduleba/config/root access_key=_USER_KEY_ secret_key=_USER_SEC_KEY_ region=eu-west-1` - configure path (AWS CLI)
-* `vault write aws-pduleba/roles/s3-role credential_type=iam_user policy_document=@resource/policy.json` - create AWS role to be used
-* `vault read aws-pduleba/creds/s3-role` - read AWS user 
-* `vault lease revoke aws-pduleba/creds/s3-role/lp0FdEAbstn64DU1mPYj4KY4` - revoke secret
-
-![Result](resource/generating-secrets-result.PNG?raw=true "Result")
-
 ### Help
 * `vault path-help __VAULT_PATH__` - provides help for given path of given `search engine`
 * * `vault path-help pduleba` - for custom path 
