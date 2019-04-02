@@ -10,4 +10,6 @@ HashiCorp Vault self learning
 ### Exercise 03
 [HashiCorp Vault dynamic secret generation](/exercise-03-dynamic-secret)
 
+### Exercise 04
+[HashiCorp Vault wrapping secret](/exercise-04-wrapping-secret)
 

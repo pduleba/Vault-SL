@@ -26,5 +26,5 @@ This demonstrates how to run Vault server with:
 * `curl -H "X-Vault-Token: %VAULT_TOKEN%" -X POST --data @6-data-create-dev_engine.json http://127.0.0.1:8200/v1/sys/mounts/dev` - create new Search Engine
 * * `set VAULT_TOKEN=s.8YRzwqjLVhk8jdNV91NA3MMm` - export policy token for approle
 * `curl -H "X-Vault-Token: %VAULT_TOKEN%" -X POST --data @7-data.json http://127.0.0.1:8200/v1/dev/data/app-secret | jq` - put some data inside vault
-* `curl -H "X-Vault-Token: %VAULT_TOKEN%" http://127.0.0.1:8200/v1/dev/data/app-secret | jq` - put some data inside vault
+* `curl -H "X-Vault-Token: %VAULT_TOKEN%" http://127.0.0.1:8200/v1/dev/data/app-secret | jq` - get and check data 
 
